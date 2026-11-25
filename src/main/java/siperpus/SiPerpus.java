@@ -43,11 +43,13 @@ public class SiPerpus {
         Buku b1 = new Buku("978-602-01", "BK-101", "Pemrograman Berorientasi Objek Java", 3);
         Buku b2 = new Buku("978-602-02", "BK-102", "Clean Architecture & Prinsip SOLID", 2);
         Buku b3 = new Buku("978-602-03", "BK-103", "Basis Data & Big Data Spark", 1);
+        Buku b4 = new Buku("978=602-04", "BK-104", "Matematika Discrete", 3);
 
         RakBuku rakTI = new RakBuku("RAK-A1", "Lantai 2 - Zona Teknologi Informasi");
         rakTI.tambahBuku(b1);
         rakTI.tambahBuku(b2);
         rakTI.tambahBuku(b3);
+        rakTI.tambahBuku(b4);
 
         List<RakBuku> daftarRak = new ArrayList<>();
         daftarRak.add(rakTI);
